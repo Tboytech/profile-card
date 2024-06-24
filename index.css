@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: #504abd00; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+
+
+.card {
+  background: blanchedalmond;
+  border-radius: 50px;
+  overflow: hidden;
+  width: 350px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.63);
+  text-align: center;
+  
+}
+
+.card-header {
+  background: url('header-bg.jpg') no-repeat center center; 
+ background-size: cover;
+  padding: 20px 0;
+  border-radius: 99px;
+  
+}
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 5px solid rgba(255, 255, 255, 0);
+  margin-top: -50px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-body h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  }
+
+.card-body h2 span {
+  font-weight: normal;
+  color: gray;
+}
+
+.card-body p {
+  color: gray;
+  margin-bottom: 20px;
+  
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stat {
+  flex: 1;
+}
+
+.stat h3 {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.stat p {
+  color: gray;
+  font-size: 14px;
+}
+
+
